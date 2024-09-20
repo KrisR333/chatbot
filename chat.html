@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechAssist - Tu asistente en tecnología y programación</title>
+    <link rel="stylesheet" href="styleC.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <div class="logo2">
+                <img src="logocha.png" alt="logo2">
+                TechAsisten
+            </div>
+            
+            <p>Tu asistente en tecnología y programación</p>
+        </header>
+        <div id="chatMessages" class="chat-messages">
+            <div class="message bot-message">
+                ¡Hola! Soy TechAsisten, tu asistente virtual especializado en tecnología y programación. ¿En qué puedo ayudarte hoy?
+            </div>
+        </div>
+        <div class="question-suggestions" id="questionSuggestions">
+        </div>
+        <div class="chat-controls">
+            <button id="clearChatButton" class="clear-chat-button">Limpiar Chat</button>
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="Escribe tu pregunta aquí...">
+                <button id="sendButton">Enviar</button>
+            </div>
+        </div>
+    </div>
+    <script src="chat.js"></script>
+</body>
+</html>
